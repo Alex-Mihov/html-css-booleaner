@@ -1,25 +1,46 @@
 /* Header */
 
 header {
+    background-image: url(../img/pattern.png);
     background-color: #229afc;
     height: 100px;
+    background-repeat: repeat;
+    background-size: 20%;
 }
 
-.imgContainer {
-    position: relative; padding: 0;
-    }
-
-.imgContainer img.sfondo{
-    border-width: 0;
-    margin: 0;
-    padding: 0;
-    height: 100px;
+#logo {
+    position: absolute;
+    max-height: fit-content;
+    height: 50px;
+    margin-top: 35px;
 }
 
-.imgContainer img.sopra {
-    width: 200px;
-    border-width: 0;
-    margin: 0;
-    padding: 0;
-    position: absolute; bottom: 0; left: 0;
-    }
+    /* main */
+
+.testo-scrittore {
+    color:#615f5f
+}
+
+.descrizione-foto {
+    margin: 0 auto;
+    font-size: 12px;
+}
+
+/* footer */
+
+footer h4 {
+    color:#615f5f
+}
+
+.img-footer {
+    position: relative;
+}
+
+.inside-img {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    top: 20px;
+    left: 15px;
+}
