@@ -26,6 +26,19 @@ header {
     font-size: 12px;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+thead {
+    background-color:#2e91d3;
+    color: white;
+    border-collapse: collapse;
+}
+
+.different-color {
+    background-color: #a8cfe9;
+}
 /* footer */
 
 footer h4 {
