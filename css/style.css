@@ -26,8 +26,17 @@ header {
     font-size: 12px;
 }
 
+p span {
+    background-color: yellow;
+}
+
 table {
     border-collapse: collapse;
+    text-align: left;
+}
+
+td {
+    min-width: 250px;
 }
 
 thead {
