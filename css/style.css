@@ -1,0 +1,25 @@
+/* Header */
+
+header {
+    background-color: #229afc;
+    height: 100px;
+}
+
+.imgContainer {
+    position: relative; padding: 0;
+    }
+
+.imgContainer img.sfondo{
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+    height: 100px;
+}
+
+.imgContainer img.sopra {
+    width: 200px;
+    border-width: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute; bottom: 0; left: 0;
+    }
